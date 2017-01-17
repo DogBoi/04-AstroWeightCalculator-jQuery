@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<title>AstroWeightCalculator</title>
+    <style>
+     div{
+
+      color: blue;
+     } 
+     div#five {
+      color: red;
+     }
+     link {
+      href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"
+    }
+</style>
+	<link rel="stylesheet" type="text/css" href="styles.css"></link>
+
+</head>
+<body>
+<div class="form-horizontal">
+
+
+<!-- Form Name -->
+<h1>Astro Weight Calculator</h1>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Weight</label>  
+  <div class="col-md-4">
+  <input id="Weight" name="textinput" type="text" placeholder="" class="form-control input-md">
+  <span class="help-block"></span>  
+  </div>
+</div>
+<br>
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Select Planet</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+    </select>
+  </div>
+</div>
+<br>
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4">
+    <button id="Bang" name="Bang" class="btn btn-primary">Bang</button>
+  </div>
+</div>
+
+<br>
+
+</div>
+	<div>
+   <p id="answer"></p>
+
+</div>
+  <script src="jquery-3.1.1.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>
